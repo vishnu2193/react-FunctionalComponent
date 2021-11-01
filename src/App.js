@@ -31,7 +31,7 @@ const App = () => {
           src="https://www.vhv.rs/dpng/d/134-1343401_movie-film-strip-clipart-transparent-background-film-logo.png"
         />
         <h2>Movies</h2>
-        <AccountMenu />
+        <AccountMenu style={{}} />
       </Paper>
 
       {posts.map((item, i) => {
