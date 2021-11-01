@@ -3,6 +3,7 @@ import './style.css';
 import axios from 'axios';
 import Paper from '@mui/material/Paper';
 import AccountMenu from './AccountMenu';
+import Tabb from './Tabb';
 
 const App = () => {
   const [posts, setPosts] = useState([]);
@@ -33,15 +34,9 @@ const App = () => {
         <h2>Movies</h2>
         <AccountMenu style={{}} />
       </Paper>
-
+      <Tabb />
       {posts.map((item, i) => {
-        return (
-          <div key={i}>
-            <h2>{item.title}</h2>
-
-            <hr />
-          </div>
-        );
+        return <div key={i}></div>;
       })}
     </>
   );
