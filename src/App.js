@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <>
-      <Paper square elevation={5} style={{ display: 'flex' }}>
+      <Paper square elevation={5} style={{ display: 'flex', width: '1000%' }}>
         <img
           style={{ width: '190px', height: '80px' }}
           src="https://www.vhv.rs/dpng/d/134-1343401_movie-film-strip-clipart-transparent-background-film-logo.png"
