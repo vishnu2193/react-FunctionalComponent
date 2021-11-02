@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import axios from 'axios';
+import Paper from '@mui/material/Paper';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -78,23 +79,57 @@ export default function BasicTabs() {
       <TabPanel value={value} index={0}>
         {posts.map((item, i) => {
           return (
-            <div key={i}>
-              <h2>{item.id}</h2>
-            </div>
+            <Paper
+              square
+              elevation={5}
+              style={{
+                display: 'inline-flex',
+                width: '150px',
+                height: '200px',
+                margin: '25px',
+              }}
+            >
+              {item.id}
+            </Paper>
           );
         })}
       </TabPanel>
       <TabPanel value={value} index={1}>
         {posts.map((item, i) => {
           return (
-            <div key={i}>
-              <h2>{item.title}</h2>
-            </div>
+            <Paper
+              square
+              elevation={5}
+              style={{
+                display: 'inline-flex',
+                width: '150px',
+                height: '200px',
+                margin: '25px',
+              }}
+            >
+              {item.id}
+            </Paper>
           );
         })}
       </TabPanel>
+
       <TabPanel value={value} index={2}>
-        Item Three
+        {posts.map((item, i) => {
+          return (
+            <Paper
+              square
+              elevation={5}
+              style={{
+                display: 'inline-flex',
+                width: '150px',
+                height: '200px',
+                margin: '25px',
+              }}
+            >
+              {item.id}
+            </Paper>
+          );
+        })}
       </TabPanel>
     </Box>
   );
