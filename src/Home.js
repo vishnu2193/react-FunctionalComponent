@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './style.css';
 import axios from 'axios';
 import Paper from '@mui/material/Paper';
-import AccountMenu from './AccountMenu';
-import Tabb from './Tabb';
+import AccountMenu from './Components/AccountMenu';
+import Tabb from './Components/Tabb';
 
 const Router = () => {
   const [posts, setPosts] = useState([]);
