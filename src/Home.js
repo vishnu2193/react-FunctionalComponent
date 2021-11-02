@@ -31,7 +31,7 @@ const Router = () => {
           style={{ width: '190px', height: '80px' }}
           src="https://www.vhv.rs/dpng/d/134-1343401_movie-film-strip-clipart-transparent-background-film-logo.png"
         />
-        <h2>Movies</h2>
+
         <AccountMenu style={{}} />
       </Paper>
       <Tabb />
