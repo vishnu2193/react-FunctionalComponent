@@ -86,10 +86,21 @@ export default function BasicTabs() {
                 display: 'inline-flex',
                 width: '150px',
                 height: '200px',
-                margin: '25px',
+                margin: '30px',
               }}
             >
               <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10354097/2019/11/21/dff30868-f6d0-4219-8fd1-c47052c6f35a1574321916799-Anouk-Men-Kurta-Sets-951574321914961-1.jpg" />
+              <button
+                style={{
+                  width: '150px',
+                  height: '20px',
+                  position: 'relative',
+                  top: '108%',
+                  right: '86px',
+                }}
+              >
+                Cart
+              </button>
             </Paper>
           );
         })}
@@ -112,7 +123,6 @@ export default function BasicTabs() {
           );
         })}
       </TabPanel>
-
       <TabPanel value={value} index={2}>
         {posts.map((item, i) => {
           return (
