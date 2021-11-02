@@ -89,7 +89,7 @@ export default function BasicTabs() {
                 margin: '25px',
               }}
             >
-              {item.id}
+              <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10354097/2019/11/21/dff30868-f6d0-4219-8fd1-c47052c6f35a1574321916799-Anouk-Men-Kurta-Sets-951574321914961-1.jpg" />
             </Paper>
           );
         })}
@@ -107,7 +107,7 @@ export default function BasicTabs() {
                 margin: '25px',
               }}
             >
-              {item.id}
+              <img src="https://cdn.shopclues.com/images1/thumbnails/110871/280/1/151047473-110871442-1601973238.jpg" />
             </Paper>
           );
         })}
@@ -126,7 +126,7 @@ export default function BasicTabs() {
                 margin: '25px',
               }}
             >
-              {item.id}
+              <img src="https://medias.utsavfashion.com/media/catalog/product/cache/1/small_image/295x/040ec09b1e35df139433887a97daa66f/d/i/digital-printed-art-silk-jacket-style-gown-in-blue-and-pink-v1-uku1075.jpg" />
             </Paper>
           );
         })}
