@@ -29,7 +29,7 @@ const Router = () => {
       <Paper square elevation={5} style={{ display: 'flex', width: '1000%' }}>
         <img
           style={{ width: '190px', height: '80px' }}
-          src="https://www.vhv.rs/dpng/d/134-1343401_movie-film-strip-clipart-transparent-background-film-logo.png"
+          src="https://www.seekpng.com/png/full/143-1433754_flipkart-logo-png-transparent-background1-flipkart-com-logo.png"
         />
 
         <AccountMenu style={{}} />
