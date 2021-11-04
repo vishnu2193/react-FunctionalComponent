@@ -5,7 +5,6 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import axios from 'axios';
-import Paper from '@mui/material/Paper';
 import '../Styles/Tabb.css';
 
 function TabPanel(props) {
