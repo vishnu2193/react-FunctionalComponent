@@ -79,14 +79,16 @@ export default function BasicTabs() {
       <TabPanel value={value} index={0}>
         {posts.map((item, i) => {
           return (
-            <div Key={i} className="Imageboxs">
+            <div key={i} className="Imageboxs">
               <img
                 style={{ width: '250px', height: '250px' }}
                 src="https://5.imimg.com/data5/ANDROID/Default/2020/10/DA/GX/TA/115146420/product-jpeg-500x500.jpg"
                 alt=""
               />
-              <p>Beware of the leopard dsfdsfd dfgdfd</p>
-              <p>Rs 200</p>
+              <p key={i}>
+                <div>Beware of the leopard dsfdsfd dfgdfd</div>
+                <div>Rs 200</div>
+              </p>
             </div>
           );
         })}
@@ -94,14 +96,16 @@ export default function BasicTabs() {
       <TabPanel value={value} index={1}>
         {posts.map((item, i) => {
           return (
-            <div Key={i} className="Imageboxs">
+            <div key={i} className="Imageboxs">
               <img
                 style={{ width: '250px', height: '250px' }}
                 src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPWOMEN-SOLID-ARBI11620035E33270B/1595576509144_0..jpg"
                 alt=""
               />
-              <p>Beware of the leopard dsfdsfd dfgdfd</p>
-              <p>Rs 200</p>
+              <p key={i}>
+                <div>Beware of the leopard dsfdsfd dfgdfd</div>
+                <div>Rs 200</div>
+              </p>
             </div>
           );
         })}
@@ -109,14 +113,16 @@ export default function BasicTabs() {
       <TabPanel value={value} index={2}>
         {posts.map((item, i) => {
           return (
-            <div Key={i} className="Imageboxs">
+            <div key={i} className="Imageboxs">
               <img
                 style={{ width: '250px', height: '250px' }}
                 src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/14871964/2021/8/27/1b665289-e5f1-4d95-8ecb-49a17e514f861630068662308-Tommy-Hilfiger-Boys-Blue-Printed-Pure-Cotton-Casual-Shirt-66-1.jpg"
                 alt=""
               />
-              <p>Beware of the leopard dsfdsfd dfgdfd</p>
-              <p>Rs 200</p>
+              <p key={i}>
+                <div>Beware of the leopard dsfdsfd dfgdfd</div>
+                <div>Rs 200</div>
+              </p>
             </div>
           );
         })}
