@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import axios from 'axios';
 import Paper from '@mui/material/Paper';
+import '../Styles/Tabb.css';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -79,29 +80,15 @@ export default function BasicTabs() {
       <TabPanel value={value} index={0}>
         {posts.map((item, i) => {
           return (
-            <Paper
-              square
-              elevation={5}
-              style={{
-                display: 'inline-flex',
-                width: '150px',
-                height: '200px',
-                margin: '30px',
-              }}
-            >
-              <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10354097/2019/11/21/dff30868-f6d0-4219-8fd1-c47052c6f35a1574321916799-Anouk-Men-Kurta-Sets-951574321914961-1.jpg" />
-              <button
-                style={{
-                  width: '150px',
-                  height: '20px',
-                  position: 'relative',
-                  top: '108%',
-                  right: '86px',
-                }}
-              >
-                Cart
-              </button>
-            </Paper>
+            <div class="Imageboxs">
+              <img
+                style={{ width: '250px', height: '250px' }}
+                src="https://5.imimg.com/data5/ANDROID/Default/2020/10/DA/GX/TA/115146420/product-jpeg-500x500.jpg"
+                alt=""
+              />
+              <p>Beware of the leopard dsfdsfd dfgdfd</p>
+              <p>Rs 200</p>
+            </div>
           );
         })}
       </TabPanel>

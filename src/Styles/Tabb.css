@@ -1,0 +1,15 @@
+.Imageboxs {
+  padding: 0.5rem;
+  display: inline-block;
+  flex-direction: column;
+  width: 22%;
+}
+
+.Imageboxs img {
+  width: 100%;
+}
+
+.Imageboxs p {
+  font: small-caps bold 1.2rem sans-serif;
+  text-align: center;
+}
